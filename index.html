@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="general.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header__logo">
+                <a href="#">
+                    <img src="hamburger.png" alt="navigation button" class="header__hamburger-logo">
+                </a>
+                <a href="#">
+                    <img src="yt-logo.png" alt="youtube logo" class="header__yt-logo">
+                </a>
+            </div>
+            <div class="search">
+                <form action=""> 
+                    <input type="text" name="search" id="search__input" placeholder="search">
+                    <a href="#">
+                        <img src="search.png" alt="search icon" class="search__icon">
+                    </a>
+                </form>
+            </div>
+            <a href="#">
+                <img src="grid.png" alt="grid icon" class="header__yt-logo">
+            </a>
+            <a href="#">
+                <img src="upload.png" alt="upload" class="header__upload">
+            </a>
+            <a href="#">
+                <img src="bell.png" alt="bell icon" class="header__bell">
+            </a>
+            <a href="#">
+                <img style="align-items: flex-end;" src="profile-placeholder.png" alt="profile icon" class="header__icons--profile">
+            </a>
+        </header>
+        <div class="main-wrapper">
+            <div class="left"></div>
+            <main>
+                <div class="main__video">
+                    <div class="main__video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/c8MOiEvYsWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     </div>
+                     <div class="main__sub-description">
+                        <a href="#">
+                            <img class="main__name" src="describe-name.jpg" alt="name" >
+                        </a>
+                        <a href="#">
+                            <img src="subscribed.jpg" alt="subscriptions" class="main__subscriptions">
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo recusandae numquam, id ad totam sunt soluta obcaecati provident blanditiis sed iste voluptate a laudantium dolorum ut nisi! Commodi, ipsum velit.</p>
+                     </div>
+                     <div class="main__more">
+                        <a href="#">
+                            <p>show more</p>
+                        </a>
+                     </div>
+                </div>
+                <aside class="aside">
+                    <div class="aside__top-container">
+                        <p>Up Next</p>
+                        <a href="#">
+                            AUTOPLAY
+                        </a>
+                    </div>
+                    <a href="#" class="first__img-aside">
+                        <img src="aside-pic.jpg" alt="next video">
+                    </a>
+                    <a href="#" class="first__img-aside">
+                        <img src="aside-pic.jpg" alt="next video">
+                    </a>
+                    <a href="#" class="first__img-aside">
+                        <img src="aside-pic.jpg" alt="next video">
+                    </a>
+                    <a href="#" class="first__img-aside">
+                        <img src="aside-pic.jpg" alt="next video">
+                    </a>
+                    <a href="#" class="first__img-aside">
+                        <img src="aside-pic.jpg" alt="next video">
+                    </a>
+                    <a href="#" class="first__img-aside">
+                        <img src="aside-pic.jpg" alt="next video">
+                    </a>
+                    <a href="#" class="first__img-aside">
+                        <img src="aside-pic.jpg" alt="next video">
+                    </a>
+                    <a href="#" class="first__img-aside">
+                        <img src="aside-pic.jpg" alt="next video">
+                    </a>
+                    <a href="#" class="first__img-aside">
+                        <img src="aside-pic.jpg" alt="next video">
+                    </a>
+                    <a href="#" class="first__img-aside">
+                        <img src="aside-pic.jpg" alt="next video">
+                    </a>
+                    <a href="#" class="first__img-aside">
+                        <img src="aside-pic.jpg" alt="next video">
+                    </a>
+                    <div class="aside__more">
+                        <a href="#">SHOW MORE</a>
+                    </div>
+                </aside>
+                <section>
+                    <div class="section__coments">
+                        <p>8,896 comments</p>
+                        <div class="section__sort-container">
+                            <a href="#">
+                                <img src="sort.jpg" alt="sort comments">
+                                <p>SORT BY</p>
+                            </a>
+                        </div>
+                        <div class="section__profile">
+                            <img src="profile_icon.png" alt="profile icon">
+                        </div>
+                        <div class="input__container">
+                            <form action="">
+                                <input type="text" name="comment" id="comment" value="add a public comment....">
+                            </form>
+                            </div>
+                    </div>
+                    <div class="comments">
+                        <img src="profile_icon.png" alt="profile_icon" width="50">
+                        <p class="comments__name">john snow <a href="#">10 months ago</a></p>
+                        <p class="comments__comment">stephen a will do anything he possibly can to get KD on the knicks .</p>
+                        <div class="likes">
+                            <a href="#">
+                                <img src="like.jpg" alt="like">
+                            </a>
+                            <p class="comments__text">1K</p>
+                            <a href="#">
+                                <img src="dislike.jpg" alt="dislike">
+                            </a>
+                            <a href="#" class="comments__text">REPLY</a>
+                            <a href="#" class="comments__replies">view all 7 replies</a>
+                        </div>
+                        
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>    
+</body>
+</html>
